@@ -5,7 +5,7 @@
 <LAPTOPS>
 
 <UNIT>
-<IMAGE>g18.png</IMAGE>
+<IMAGE>images/g18.png</IMAGE>
 <BRAND>ROG</BRAND>
 <NAME>ROG Strix G18</NAME>
 <PRICE>₱147,999</PRICE>
@@ -15,7 +15,7 @@
 
 
 <UNIT>
-<IMAGE>g16.png</IMAGE>
+<IMAGE>images/g16.png</IMAGE>
 <BRAND>ROG</BRAND>
 <NAME>ROG Strix G16</NAME>
 <PRICE>₱110,999</PRICE>
@@ -23,7 +23,7 @@
 </UNIT>
 
 <UNIT>
-<IMAGE>g17.png</IMAGE>
+<IMAGE>images/g17.png</IMAGE>
 <BRAND>ROG</BRAND>
 <NAME>ROG Strix G17</NAME>
 <PRICE>₱75,999</PRICE>
@@ -31,7 +31,7 @@
 </UNIT>
 
 <UNIT>
-<IMAGE>g15.png</IMAGE>
+<IMAGE>images/g15.png</IMAGE>
 <BRAND>ROG</BRAND>
 <NAME>ROG Strix G15</NAME>
 <PRICE>₱78,999</PRICE>
@@ -44,7 +44,7 @@
 
 
 <UNIT>
-<IMAGE>a16.png</IMAGE>
+<IMAGE>images/a16.png</IMAGE>
 <BRAND>TUF</BRAND>
 <NAME>ASUS TUF A16</NAME>
 <PRICE>₱95,999</PRICE>
@@ -52,7 +52,7 @@
 </UNIT>
 
 <UNIT>
-<IMAGE>a15.png</IMAGE>
+<IMAGE>images/a15.png</IMAGE>
 <BRAND>TUF</BRAND>
 <NAME>ASUS TUF A15</NAME>
 <PRICE>₱69,999</PRICE>
@@ -60,7 +60,7 @@
 </UNIT>
 
 <UNIT>
-<IMAGE>dashf15.png</IMAGE>
+<IMAGE>images/dashf15.png</IMAGE>
 <BRAND>TUF</BRAND>
 <NAME>ASUS TUF DASH F15</NAME>
 <PRICE>₱65,999</PRICE>
@@ -68,7 +68,7 @@
 </UNIT>
 
 <UNIT>
-<IMAGE>f15.png</IMAGE>
+<IMAGE>images/f15.png</IMAGE>
 <BRAND>TUF</BRAND>
 <NAME>ASUS TUF F15</NAME>
 <PRICE>₱65,999</PRICE>
@@ -81,7 +81,7 @@
 
 
 <UNIT>
-<IMAGE>a17x.png</IMAGE>
+<IMAGE>images/a17x.png</IMAGE>
 <BRAND>AORUS</BRAND>
 <NAME>AORUS 17X</NAME>
 <PRICE>₱143,999</PRICE>
@@ -89,7 +89,7 @@
 </UNIT>
 
 <UNIT>
-<IMAGE>aorus16.png</IMAGE>
+<IMAGE>images/aorus16.png</IMAGE>
 <BRAND>AORUS</BRAND>
 <NAME>AORUS 16</NAME>
 <PRICE>₱103,999</PRICE>
@@ -97,7 +97,7 @@
 </UNIT>
 
 <UNIT>
-<IMAGE>a16x.png</IMAGE>
+<IMAGE>images/a16x.png</IMAGE>
 <BRAND>AORUS</BRAND>
 <NAME>AORUS 16X</NAME>
 <PRICE>₱92,999</PRICE>
@@ -105,7 +105,7 @@
 </UNIT>
 
 <UNIT>
-<IMAGE>aorus15.png</IMAGE>
+<IMAGE>images/aorus15.png</IMAGE>
 <BRAND>AORUS</BRAND>    
 <NAME>AORUS 15</NAME>
 <PRICE>₱84,995</PRICE>
@@ -120,7 +120,7 @@
 
 
 <UNIT>
-<IMAGE>helios18.png</IMAGE>
+<IMAGE>images/helios18.png</IMAGE>
 <BRAND>PREDATOR</BRAND>    
 <NAME>PREDATOR HELIOS 18</NAME>
 <PRICE>₱135,999</PRICE>
@@ -128,7 +128,7 @@
 </UNIT>
 
 <UNIT>
-<IMAGE>helios16.png</IMAGE>
+<IMAGE>images/helios16.png</IMAGE>
 <BRAND>PREDATOR</BRAND>    
 <NAME>PREDATOR HELIOS 16</NAME>
 <PRICE>₱108,999</PRICE>
@@ -136,7 +136,7 @@
 </UNIT>
 
 <UNIT>
-<IMAGE>heliosneo16.png</IMAGE>
+<IMAGE>images/heliosneo16.png</IMAGE>
 <BRAND>PREDATOR</BRAND>    
 <NAME>PREDATOR NEO 16</NAME>
 <PRICE>₱82,999</PRICE>
@@ -144,7 +144,7 @@
 </UNIT>
 
 <UNIT>
-<IMAGE>helios300.png</IMAGE>
+<IMAGE>images/helios300.png</IMAGE>
 <BRAND>PREDATOR</BRAND>    
 <NAME>PREDATOR HELIOS 300</NAME>
 <PRICE>₱78,999</PRICE>
@@ -158,7 +158,7 @@
 
 
 <UNIT>
-<IMAGE>legion9i.png</IMAGE>
+<IMAGE>images/legion9i.png</IMAGE>
 <BRAND>LEGION</BRAND>    
 <NAME>Legion 9i</NAME>
 <PRICE>₱235,999</PRICE>
@@ -166,7 +166,7 @@
 </UNIT>
 
 <UNIT>
-<IMAGE>legionpro7i.png</IMAGE>
+<IMAGE>images/legionpro7i.png</IMAGE>
 <BRAND>LEGION</BRAND>    
 <NAME>Legion Pro 7i</NAME>
 <PRICE>₱199,999</PRICE>
@@ -174,7 +174,7 @@
 </UNIT>
 
 <UNIT>
-<IMAGE>legion5pro.png</IMAGE>
+<IMAGE>images/legion5pro.png</IMAGE>
 <BRAND>LEGION</BRAND>    
 <NAME>Legion 5 Pro</NAME>
 <PRICE>₱96,999</PRICE>
@@ -182,7 +182,7 @@
 </UNIT>
 
 <UNIT>
-<IMAGE>legion5i.png</IMAGE>
+<IMAGE>images/legion5i.png</IMAGE>
 <BRAND>LEGION</BRAND>    
 <NAME>Legion 5i</NAME>
 <PRICE>₱79,999</PRICE>
@@ -195,7 +195,7 @@
 
 
 <UNIT>
-<IMAGE>ge76.png</IMAGE>
+<IMAGE>images/ge76.png</IMAGE>
 <BRAND>MSI</BRAND>    
 <NAME>MSI Raider GE76</NAME>
 <PRICE>₱272,999</PRICE>
@@ -203,7 +203,7 @@
 </UNIT>
 
 <UNIT>
-<IMAGE>katana15.png</IMAGE>
+<IMAGE>images/katana15.png</IMAGE>
 <BRAND>MSI</BRAND>    
 <NAME>MSI Katana 15</NAME>
 <PRICE>₱80,950</PRICE>
@@ -211,7 +211,7 @@
 </UNIT>
 
 <UNIT>
-<IMAGE>katana17.png</IMAGE>
+<IMAGE>images/katana17.png</IMAGE>
 <BRAND>MSI</BRAND>    
 <NAME>MSI Katana 17</NAME>
 <PRICE>₱70,999</PRICE>
@@ -219,7 +219,7 @@
 </UNIT>
 
 <UNIT>
-<IMAGE>cyborg15.png</IMAGE>
+<IMAGE>images/cyborg15.png</IMAGE>
 <BRAND>MSI</BRAND>    
 <NAME>MSI Cyborg 15</NAME>
 <PRICE>₱64,999</PRICE>
