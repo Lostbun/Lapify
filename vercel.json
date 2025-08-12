@@ -6,11 +6,22 @@
       "use": "@vercel/static"
     },
     {
-      "src": "laptops.xml",
+      "src": "*.xml",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "*.js",
       "use": "@vercel/static"
     }
   ],
   "routes": [
+    {
+      "src": "/laptops.xml",
+      "dest": "/laptops.xml",
+      "headers": {
+        "Content-Type": "text/xml"
+      }
+    },
     {
       "src": "/(.*)",
       "dest": "/index.html"

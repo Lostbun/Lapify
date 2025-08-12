@@ -399,17 +399,21 @@
     ({key: "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg", v: "weekly"});
 
     // SHOW ALL
-    async function loadDoc() {
-        try {
-            const response = await fetch('/laptops.xml');
-            const xmlString = await response.text();
-            const parser = new DOMParser();
-            const xmlDoc = parser.parseFromString(xmlString, "text/xml");
-            myFunction(xmlDoc);
-        } catch (error) {
-            console.error('Error loading XML:', error);
-        }
+async function loadDoc() {
+  try {
+    const response = await fetch('laptops.xml');
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
     }
+    const xmlString = await response.text();
+    const parser = new DOMParser();
+    const xmlDoc = parser.parseFromString(xmlString, "text/xml");
+    myFunction(xmlDoc);
+  } catch (error) {
+    console.error('Error loading XML:', error);
+    // Fallback or error message to user
+  }
+}
 
     function myFunction(xml) {
         var i;
