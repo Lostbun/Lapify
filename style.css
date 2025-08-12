@@ -1,0 +1,1892 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+  font-family: 'Aorus';
+  src: url(Sneakout.ttf);
+}
+
+@font-face {
+  font-family: 'Tuf';
+  src: url(Zebulon.otf);
+}
+@font-face {
+  font-family: 'Rog';
+  src: url(ROGFonts-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Predator';
+  src: url(CloudWorld-wOYn.ttf);
+}
+
+@font-face {
+  font-family: 'Msi';
+  src: url(BATMFA_.TTF);
+}
+
+@font-face {
+  font-family: 'Legion';
+  src: url(ProductSans-Bold.ttf);
+}
+
+@keyframes animation{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+
+
+/* All Properties */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+    transition: .8s;
+    
+}
+
+
+
+/* Whole Navbar */
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+
+/* Mizu */
+.logo{
+    font-size: 25px;
+    color: #ededed;
+    font-weight: 600;
+    margin-left: 50px;
+    text-decoration: none;
+    margin-top: 8px;
+}
+
+
+
+/* From Features to About */
+
+nav a{
+
+    font-size: 18px;
+    color: #ededed;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 35px;
+    transition: all .3s;
+    margin-right: 40px;
+    position: relative;
+    
+}
+
+/* Hovering Features to About us */
+nav a:hover,
+nav a.active{
+    color: #00c6ff;
+}
+
+/* Hovering Introduction to Seminars */
+nav a::after{
+    content: '';
+    background-image: linear-gradient(to bottom right, #00c6ff,
+    #0072ff);
+    transition: all .2s ease;
+    height: 3px;
+    position: absolute;
+    width: 0;
+    left: 0;
+    bottom:-10px;
+    transition: 0.3s;
+}
+
+/* Hovering Introduction to Seminars */
+nav a:hover::after{
+    width: 100%;
+}
+
+
+
+
+
+
+/* Snap Scrolling */
+.container{
+
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*SECTION 1*//*SECTION 1*//*SECTION 1*//*SECTION 1*//*SECTION 1*//*SECTION 1*//*SECTION 1*//*SECTION 1*//*SECTION 1*//*SECTION 1*/
+
+section.one{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+
+.firstpage{
+    transition: .3s;
+    width: 100%;
+
+}
+
+
+/* LAPTOP NAME & P DIV */
+.headescription{
+    margin-top: 73px;
+    padding-right:55%;
+    padding-left:10%;
+    color: white;
+}
+
+
+
+.lapifycontain{
+
+  width: 525px;
+  height: 80px;
+  background-image: url('lapifyhome.png');
+  filter: drop-shadow(1px 1px 10px black);
+
+}
+
+/* LAPTOP SLOGAN */
+p{
+    color: whitesmoke;
+    margin-top: 25px;
+    font-size: 24px;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    text-shadow: 2px 2px 4px #000000;
+    
+
+}
+
+
+
+/* GET STARTED LAPTOP BUTTON */
+/* GET STARTED LAPTOP BUTTON */
+/* GET STARTED LAPTOP BUTTON */
+
+.laptopbutton {
+
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    background: none;
+    color: #0f1923;
+    cursor: pointer;
+    position: relative;
+    padding: 8px;
+
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    transition: all .15s ease;
+    margin-top: 70px;
+    left: 157px;
+
+
+  }
+  
+  .laptopbutton::before,
+  .laptopbutton::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: calc(50% - 5px);
+    border: 1px solid #7D8082;
+    transition: all .15s ease;
+  }
+  
+  .laptopbutton::before {
+    top: 0;
+    border-bottom-width: 0;
+  }
+  
+  .laptopbutton::after {
+    bottom: 0;
+    border-top-width: 0;
+  }
+  
+  .laptopbutton:active,
+  .laptopbutton:focus {
+    outline: none;
+  }
+  
+  .laptopbutton:active::before,
+  .laptopbutton:active::after {
+    right: 3px;
+    left: 3px;
+  }
+  
+  .laptopbutton:active::before {
+    top: 3px;
+  }
+  
+  .laptopbutton:active::after {
+    bottom: 3px;
+  }
+  
+  .laptopbutton_lg {
+    position: relative;
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #0f1923;
+    padding-left: 50px;
+    padding-right: 50px;
+    overflow: hidden;
+    box-shadow: inset 0px 0px 0px 1px transparent;
+  }
+  
+  .laptopbutton_lg::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 2px;
+    background-color: #0f1923;
+  }
+  
+  .laptopbutton_lg::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 4px;
+    height: 4px;
+    background-color: #0f1923;
+    transition: all .2s ease;
+  }
+  
+  .laptopbutton_sl {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: -1px;
+    left: -8px;
+    width: 0;
+    background-image: linear-gradient(to bottom right, #00c6ff,
+    #0072ff);
+    transform: skew(-15deg);
+    transition: all .2s ease;
+  }
+  
+  .laptopbutton_text {
+    position: relative;
+  }
+  
+  .laptopbutton:hover {
+    color: #0f1923;
+    
+  }
+  
+  .laptopbutton:hover .laptopbutton_sl {
+    width: calc(100% + 15px);
+  }
+  
+  .laptopbutton:hover .laptopbutton_lg::after {
+    background-color: #fff;
+  }
+
+
+  
+
+  /* GET STARTED LAPTOP BUTTON */
+  /* GET STARTED LAPTOP BUTTON */
+  /* GET STARTED LAPTOP BUTTON */
+
+  
+
+ /* ROG LAPTOP FRONT PICTURE */
+
+ #laptophover{
+
+    background-image:url('rogstrixg16.png');
+    width: 468px;
+    height: 367px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+
+    float: right;
+    margin-right: 150px;
+    margin-bottom: 30px;
+    filter: drop-shadow(1px 1px 10px black);
+    
+    transition: .4s;
+ }
+
+ #laptophover:hover{
+
+    background-image:url('rogstrixg16back.png');
+    width: 470px;
+    height: 367px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+
+    float: right;
+    margin-right: 150px;
+    margin-bottom: 30px;
+    filter: drop-shadow(1px 1px 10px black);
+    transition: .4s;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SECTION 2*//*SECTION 2*//*SECTION 2*//*SECTION 2*//*SECTION 2*//*SECTION 2*//*SECTION 2*//*SECTION 2*//*SECTION 2*//*SECTION 2*/
+
+section.two{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-image: url('rogbannercover.png');
+
+  background-attachment: fixed;
+  background-size: 100%;
+
+}
+
+section.two::before{
+ content: '';
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+ height: 100px;
+ background: linear-gradient(to top, #0a0a0a, transparent);
+}
+
+
+
+
+
+
+
+
+
+.secondpage{
+    transition: .3s;
+    left:15%;
+    width: 500px;
+    height: 500px;
+    margin-top: 1%;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 65px;
+}
+
+.laptopbanners{
+  transition: .3s;
+  left:15%;
+  width: 500px;
+  height: 500px;
+
+
+}
+
+.laptopslide{
+  display: flex;
+}
+
+
+#nextbannerbutton{
+  border-left: 0.5rem solid white;
+  border-bottom: 0.5rem solid white;
+  width: 2rem;
+  height: 2rem;
+  transform: rotate(225deg);
+  right: 3.4%;
+
+  position: absolute;
+}
+
+#nextbannerbutton:hover{
+  border-left: 0.4rem solid #0072ff;
+  border-bottom:0.4rem solid #00c6ff;
+  width: 1.7rem;
+  height: 1.7rem;
+}
+
+#prevbannerbutton{
+  border-left: 0.5rem solid white;
+  border-bottom: 0.5rem solid white;
+  width: 2rem;
+  height: 2rem;
+  transform: rotate(45deg);
+  right: 39.5%;
+
+  position: absolute;
+}
+
+#prevbannerbutton:hover{
+  border-bottom: 0.4rem solid #0072ff;
+  border-left:0.4rem solid #00c6ff;
+  width: 1.7rem;
+  height: 1.7rem;
+  
+}
+
+
+
+
+
+.laptopinfo{
+  width: 750px;
+  height: 650px;
+  margin-top: 3%;
+
+}
+
+.roginfologo{
+  width: 300px;
+  height: 70px;
+  display: flex;
+
+}
+
+/* LAPTOP NAME */
+#roglaptopname{
+  margin-top: 20px;
+  font-size: 45px;
+  color: whitesmoke;
+
+
+}
+
+/* LAPTOP SLOGAN */
+#roglaptopslogan{
+  color: rgb(255, 69, 69);
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000000;
+  justify-content: left;
+
+}
+
+#roglaptopdescription{
+  margin-right: 5px;
+  color: whitesmoke;
+  margin-top: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  justify-content: left;
+  text-shadow: 2px 2px 4px #000000;
+  margin-right: 50px;
+}
+
+
+.roggpuandcpu{
+  color: rgb(255, 255, 255);
+  text-align:center;
+  margin-top: 30px;
+  width: 750px;
+  height: 129px;
+  display: flex;
+
+
+}
+
+.rogcpu{
+  width: 50%;
+  height: 129px;
+
+}
+
+.cpuname, .gpuname{
+  margin-top: 1px;
+  font-size: 12px;
+}
+
+.ssdname, .memoryname{
+  margin-top: 7px;
+  font-size: 12px;
+}
+
+.cpugen, .gpugen, .ssdgen, .memorygen{
+  font-size: 23px;
+}
+
+.roggpu{
+
+  width: 50%;
+  height: 129px;
+
+}
+
+
+
+
+
+
+.rogssdandmemory{
+  color: rgb(255, 255, 255);
+  text-align:center;
+  width: 750px;
+  height: 129px;
+  display: flex;
+}
+
+.rogssd{
+  width: 50%;
+  height: 129px;
+
+}
+
+.rogmemory{
+  width: 50%;
+  height: 129px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SECTION 3*//*SECTION 3*//*SECTION 3*//*SECTION 3*//*SECTION 3*//*SECTION 3*//*SECTION 3*//*SECTION 3*//*SECTION 3*//*SECTION 3*//*SECTION 3*/
+
+section.three{
+  background-size: cover;
+
+  background-attachment: fixed;
+  background-size: 100%;
+  background-image: url('rogbannercover.png');
+  height: 100vh;
+}
+
+
+.gamepasscontainer{
+  width: 100%;
+  height: 100%;
+
+
+}
+
+#xboxlogos{
+  margin-top: 80px;
+  margin-left: 43.7%;
+  width: 160px;
+  height: 50px;
+
+}
+
+#xboxheading{
+  margin-top: 20px;
+  font-size: 45px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  font-family: "Legion";
+
+}
+
+#xboxdescription{
+  color: rgb(151, 245, 36);
+  margin-top: 1px;
+  font-size: 25px;
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  text-shadow: 2px 2px 4px #000000;
+  
+}
+
+#xboxtext{
+
+  margin-right: 5px;
+  color: whitesmoke;
+  margin-top: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+  margin-right: 30%;
+  margin-left: 30%;
+}
+
+#xboxbanner{
+ margin-left: 22%;
+  margin-top: 20px;
+  width: 55%;
+  height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SECTION 4*//*SECTION 4*//*SECTION 4*//*SECTION 4*//*SECTION 4*//*SECTION 4*//*SECTION 4*//*SECTION 4*//*SECTION 4*//*SECTION 4*//*SECTION 4*/
+
+section.four{
+
+  background-size: cover;
+
+  background-attachment: fixed;
+  background-size: 100%;
+  background-image: url('rogbannercover.png');
+  height: 100vh;
+  display: flex;
+  
+}
+
+.intelimagecontainer{
+
+  height: 100%;
+  width: 50%;
+}
+
+.intelbackground{
+  background-image: url('intelback.png');
+  width: 737px;
+  height: 805px;
+  filter: drop-shadow(1px 1px 10px black);
+
+}
+
+.intel{
+  height: 100%;
+  width: 50%;
+}
+
+.icontain{
+  margin-top: 15%;
+  margin-left: 9.7%;
+  width: 600px;
+  height: 600px;
+  display: block;
+
+}
+
+.inteltext{
+  margin-top: 25%;
+  width: 100%;
+  height: 50%;
+}
+.intelspcs{
+  width: 100%;
+  height: 50%;
+  display: block;
+}
+
+#intelheader{
+    margin-top: 39px;
+    font-size: 35px;
+    color: rgb(0, 191, 255);
+}
+
+#nvidiaheader{
+  margin-top: 39px;
+  font-size: 35px;
+  color: rgb(153, 255, 0);
+}
+
+#intelexplain{
+    font-size: 15px;
+}
+
+#test{
+  color: #7D8082;
+  font-size: 13px;
+}
+
+
+
+.corecontain{
+
+  width: 100%;
+  height: 50%;
+  display: flex;
+
+}
+
+.wattcontain{
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+
+.cores{
+  margin-top: 4%;
+  width: 50%;
+  height: 70%;
+
+}
+
+.threads{
+  margin-top: 4%;
+  width: 50%;
+  height: 70%;
+
+}
+
+.watts{
+  width: 50%;
+  height: 70%;
+}
+
+
+.specs{
+  font-size: 28px;
+  color: rgb(254, 255, 255);
+}
+
+.specsdec{
+  margin-top: 0;
+  justify-content: left;
+  font-size: 15px;
+  color: rgb(157, 159, 159);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SECTION 5*//*SECTION 5*//*SECTION 5*//*SECTION 5*//*SECTION 5*//*SECTION 5*//*SECTION 5*//*SECTION 5*//*SECTION 5*//*SECTION 5*//*SECTION 5*/
+
+section.five{
+
+  background-size: cover;
+
+  background-attachment: fixed;
+  background-size: 100%;
+  background-image: url('rogbannercover.png');
+  height: 100vh;
+  display: flex;
+}
+
+
+.nvidiabackground{
+  background-image: url('nvidiaback.png');
+  width: 737px;
+  height: 805px;
+  filter: drop-shadow(1px 1px 10px black);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SECTION 6*//*SECTION 6*//*SECTION 6*//*SECTION 6*//*SECTION 6*//*SECTION 6*//*SECTION 6*//*SECTION 6*//*SECTION 6*//*SECTION 6*//*SECTION 6*/
+
+section.six{
+
+  background-size: cover;
+
+  background-attachment: fixed;
+  background-size: 100%;
+  background-image: url('rogbannercover.png');
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  
+}
+
+
+.storagediv{
+  margin-top: 70px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 350px;
+  height: 510px;
+  box-shadow: 1px 5px 8px #070707;
+}
+
+.storageheader{
+  margin-top: 13px;
+   font-size: 23px;
+  color: rgb(153, 255, 0);
+}
+
+.storagedec{
+ 
+  font-size: 15px;
+  color: rgb(254, 255, 255);
+
+}
+
+.storagedecs{
+  margin-top: 0;
+  justify-content: left;
+  font-size: 11px;
+  color: rgb(157, 159, 159);
+}
+
+.stodesc{
+  
+  padding-left: 13px;
+  padding-right: 13px;
+
+}
+
+.storeimage{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 1s;
+  width: 350px;
+  height: 240px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
+}
+
+.storeimage:hover{
+  overflow-x: hidden;
+overflow-y: hidden;
+  transform: scale(1.2);
+  
+}
+
+#stogediv{
+  margin-right: 30px;
+}
+
+#ssdd{
+  margin-left: 30px;
+}
+
+#optimusimage{
+  background-image: url('optimus.png');
+
+}
+#ddr5image{
+  background-image: url('ram.png');
+
+
+}
+#ssdimage{
+  background-image: url('sssdd.png');
+
+}
+
+
+
+
+
+
+
+
+/*SECTION 7*//*SECTION 7*//*SECTION 7*//*SECTION 7*//*SECTION 7*//*SECTION 7*//*SECTION 7*//*SECTION 7*//*SECTION 7*//*SECTION 7*//*SECTION 7*/
+section.seven{
+
+  background-size: cover;
+
+  background-attachment: fixed;
+  background-size: 100%;
+  background-image: url('rogbannercover.png');
+  height: 200vh;
+  display: flex;
+  justify-content: center;
+
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+
+
+.amdcon{
+  width: 50%;
+  height: 100%;
+  border: rgba(255, 0, 0, 0);
+  border-style: dashed;
+}
+
+.con{
+  border: rgba(0, 38, 255, 0);
+  border-style: dashed;
+  height: 28%;
+  width: 100%;
+
+}
+
+
+.headerss{
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-top:180px;
+  font-size: 25px;
+  color: rgb(255, 183, 0);
+
+}
+
+.headde{
+  padding-left: 70px;
+  padding-right: 70px;
+  font-size: 18px;
+}
+
+#myVideo {
+  position: relative;
+  right: 0; 
+  bottom: 0;
+  height: 300px;
+  width: 590px;
+
+  background-size: cover;
+  overflow: hidden;
+}
+
+#videoclass{
+  filter: drop-shadow(1px 1px 10px black);
+
+  margin-top: 120px;
+  margin-left: 70px;
+}
+
+.videoss{
+  border: rgba(172, 255, 47, 0);
+  border-style: dashed;
+  height: 300px;
+  width: 590px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SECTION 8*//*SECTION 8*//*SECTION 8*//*SECTION 8*//*SECTION 8*//*SECTION 8*//*SECTION 8*//*SECTION 8*//*SECTION 8*//*SECTION 8*/
+section.eight{
+  overflow: hidden;
+  height: 300vh;
+  background-size: cover;
+
+  background-attachment: fixed;
+  background-size: 100%;
+  background-image: url('rogbannercover.png');
+}
+
+
+
+
+.displaycon{
+  width: 1478px;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+#para{
+  overflow: hidden;
+  width: 2060px;
+  height: 1493px;
+  margin-top: -40px;
+  margin-left: -291px;
+}
+
+.nebulacontainer{
+  overflow: hidden;
+  width: 500px;
+  height: 550px;
+  left: 720px;
+  margin-top: -550px;
+  opacity: 0;
+  position: absolute;
+}
+
+
+
+
+
+
+
+#nebulaimage{
+  background-image: url('nebulaimage.png');
+
+  width: 500px;
+  height: 50px;
+}
+
+#nebulatext{
+
+  width: 500px;
+  height: 200px;
+}
+
+#nebula{
+
+  width: 500px;
+  height: 50px;
+}
+
+#nebulaspecs{
+
+  width: 500px;
+  height: 180px;
+}
+
+#nebulagsync{
+
+  width: 500px;
+  height: 67px;
+}
+
+
+#nebula{
+  background-image: url('nvidiagsync.png');
+}
+
+#nebulatxt{
+  font-size: 15px
+}
+
+
+.nebulaspc{
+  margin-top: 20px;
+
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+
+.spc{
+
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.spcheader{
+  font-size: 20px;
+  color: rgb(254, 255, 255);
+
+}
+
+
+.spcdec{
+  margin-top: 0;
+  font-size: 15px;
+  color: rgb(157, 159, 159);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SECTION 9*//*SECTION 9*//*SECTION 9*//*SECTION 9*//*SECTION 9*//*SECTION 9*//*SECTION 9*//*SECTION 9*//*SECTION 9*//*SECTION 9*//*SECTION 9*/
+section.nine{
+  height: 200vh;
+
+  justify-content: center;
+  align-items: center;
+    background-image: url('rogbannercover.png');
+
+    background-attachment: fixed;
+    background-size: 100%;
+  overflow: hidden;
+}
+
+
+#filterlist{
+  width: 204px;
+  height: 100px;
+  margin-left: 50px;
+  margin-top: 100px;
+  border: rgba(0, 55, 255, 0);
+  border-style: dashed;
+}
+
+
+#itemscontainer{
+  border: rgba(102, 255, 0, 0);
+  border-style: dashed;
+  margin-right: 120px;
+  overflow: hidden;
+  width: 1480px;
+  height:1200px;
+  overflow: auto;
+  max-height: fit-content;
+}
+
+.search-bar {
+  margin-top: 3%;
+  width: 200px;
+  height: 35px;
+  border-radius: 5px;
+  outline: none;
+  border-bottom: 2px solid #9a9a9a;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #2d2d2d;
+  color: white;
+  transition: all 0.3s ease;
+
+}
+
+
+.search-bar:hover {
+  background-color: #313131;
+  
+}
+
+.search-bar:active,
+.search-bar:focus {
+  background-color: #1e1f20;
+  border: 1px solid #2d2d2d;
+  border-bottom: 2px solid #4cc2ff;
+}
+
+#searchlabel{
+
+  color: whitesmoke;
+  font-size: 15px;
+  justify-content: left;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+  margin-left: 2px;
+}
+
+
+#itemlogocontainer{
+
+  width: 1100px;
+  height: 100%;
+}
+
+#logocontainer{
+  display: flex;
+  border: rgba(255, 0, 0, 0);
+  border-style: dashed;
+  height: 100px;
+  width: 1480px;
+}
+
+
+.gamingbutton{
+
+  width: 160px;
+  height: 60px;
+  position: absolute;
+
+}
+
+
+#show{
+  font-family: "Legion";
+  margin-left: 50px;
+  margin-top: 28%;
+  color: rgb(40, 40, 40);
+  position: absolute;
+}
+
+#show:hover{
+  color: white;
+  cursor: pointer;
+}
+
+#listrog{
+
+  background-image: url('darkroglogo.png');
+  margin-left: 200px;
+  margin-top: 2%;
+}
+
+#darktuf{
+
+  background-image: url('darktuflogo.png');
+  margin-left: 400px;
+  margin-top: 2%;
+}
+#darkaorus{
+
+  background-image: url('darkaoruslogo.png');
+  margin-left: 620px;
+  margin-top: 2%;
+}
+#darkpredator{
+
+  background-image: url('darkpredatorlogo.png');
+  margin-left: 840px;
+  margin-top: 2%;
+}
+#darklegion{
+
+  background-image: url('darklegionlogo.png');
+  margin-left: 1060px;
+  margin-top: 2%;
+}
+#darkmsi{
+
+  background-image: url('darkmsilogo.png');
+  margin-left: 1280px;
+  margin-top: 2%;
+}
+
+
+
+#listrog:hover{
+  
+  background-image: url('hoverroglogo.png');
+  width: 170px;
+  height: 70px;
+  cursor: pointer;
+}
+
+
+#darktuf:hover{
+  background-image: url('hovertuflogo.png');
+  width: 170px;
+  height: 70px;
+  cursor: pointer;
+}
+#darkaorus:hover{
+  background-image: url('hoveraoruslogo.png');
+  width: 170px;
+  height: 70px;
+  cursor: pointer;
+}
+#darkpredator:hover{
+  background-image: url('hoverpredatorlogo.png');
+  width: 170px;
+  height: 70px;
+  cursor: pointer;
+}
+#darklegion:hover{
+  background-image: url('hoverlegionlogo.png');
+  width: 170px;
+  height: 70px;
+  cursor: pointer;
+}
+#darkmsi:hover{
+  background-image: url('hovermsilogo.png');
+  width: 170px;
+  height: 70px;
+  cursor: pointer;
+}
+
+
+
+#laptopcontainer{
+
+  margin-top: 24px;
+  margin-left: 43px;
+   width: 240px;
+   height: 360px;
+   display: inline-block;
+   box-shadow: 1px 5px 8px #070707;
+   animation-name: animation; /* This should match the name of your @keyframes */
+  animation-duration: 0.5s;
+  overflow: hidden;
+}
+
+.laptopimg{
+
+  overflow: hidden;
+  width: 240px;
+  height: 220px;
+}
+
+.laptopimg:hover{
+  
+  overflow-x: hidden;
+overflow-y: hidden;
+  transform: scale(1.1);
+}
+
+
+.laptopspecs{
+
+  overflow: hidden;
+  width: 240px;
+  height: 140px;
+}
+
+
+
+
+
+
+
+#unitname{
+
+  color: white;
+  font-family: "", sans-serif;
+  font-size: 20px;
+  overflow: hidden;
+}
+
+#unitprice{
+  font-size: 15px;
+  color: rgb(120, 246, 53);
+  overflow: hidden;
+}
+
+
+.unitspecs{
+  overflow: hidden;
+  font-size: 14px;
+  display: block;
+  margin-top: 0px;
+  color: rgb(218, 215, 215);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SECTION TEN *//* SECTION TEN *//* SECTION TEN *//* SECTION TEN *//* SECTION TEN *//* SECTION TEN *//* SECTION TEN *//* SECTION TEN */
+
+section.ten{
+  
+  margin-top: 9666px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0a0a0a;
+    background-attachment: fixed;
+    background-size: 100%;
+
+}
+
+
+#lastcon{
+  width: 100%;
+  height: 100%;
+  border: rgba(255, 0, 0, 0);
+  border-style: dashed;
+  display: flex;
+
+}
+
+.lastconcon{
+  width: 50%;
+  height: 100%;
+  border: rgba(255, 0, 0, 0);
+  border-style: dashed;
+}
+
+#lasthead{
+  text-align: center;
+  margin-top:180px;
+  font-size: 40px;
+  color: rgb(247, 247, 247);
+}
+
+#ltcn{
+  margin-top: 20px;
+}
+
+#lastdec{
+  text-align: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-size: 17px;
+}
+
+#lastslogan{
+  text-align: left;
+  color: #5cdcff;
+  font-size: 20px;
+
+}
+
+.lastcn{
+  border: rgba(255, 0, 0, 0);
+  border-style: dashed;
+}
+
+#ima{
+  width: 100%;
+  height: 30;
+}
+
+
+#imagecon{
+  background-image: url('aboutlapify.png');
+  filter: drop-shadow(1px 1px 10px black);
+  margin-top: 160px;
+
+  width: 735px;
+  height: 80px;
+  margin-top: 150px;
+}
+
+#lastim{
+  background-image: url('aboutstoree.png');
+  filter: drop-shadow(1px 1px 10px black);
+
+  width: 700px;
+  height: 400px;
+
+}
+
+#lstim{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#where{
+  margin-top: 30px;
+  width: 735px;
+  height: 130px;
+}
+
+.social{
+  margin-top: 10px;
+  border: rgba(255, 0, 0, 0);
+  border-style: dashed;
+
+}
+
+#soci{
+  width: 100%;
+  height: 30%;
+}
+
+#socipic{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#sss{
+  text-align: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-size: 17px;
+
+}
+
+.socmedicons{
+  
+  border: rgba(255, 0, 0, 0);
+  border-style: dashed;
+  width: 190px;
+  height: 60px;
+}
+
+#face{
+  background-image:url('socfacebook.png');
+}
+
+#insta{
+  background-image:url('socinstagram.png');
+}
+
+#tiktok{
+  background-image:url('soctiktok.png');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section.eleven{
+  
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0a0a0a;
+    background-attachment: fixed;
+    background-size: 100%;
+
+}
+
+
+#eleven{
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.maps{
+  border: rgba(255, 0, 0, 0);
+  border-style: dashed;
+  filter: drop-shadow(1px 1px 10px black);
+}
+
+#locate{
+  background-image: url('branches.png');
+  margin-top: 120px;
+width: 1479px;
+height: 90px;
+}
+
+#locations{
+  margin-top: 40px;
+  width: 100%;
+  height: 80px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+#map{
+  position: inherit;
+margin-top: 40px;
+margin-left: 140px;
+width: 80%;
+height: 400px;
+border: rgba(255, 0, 0, 0);
+border-style: dashed;
+transition: .1s;
+    
+}
+
+
+
+#branchhead{
+  color: white;
+  font-size: 40px;
+}
+
+.locs{
+  border: rgba(116, 7, 7, 0);
+  border-style: dashed;
+  width: 400px;
+  height: 100%;
+  text-align: center;
+}
+
+.locname{
+  font-size: 20px;
+  color: #ffffff;
+}
+
+h3{
+  color: #bcbbbb;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section.twelve{
+  
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('rogbannercover.png');
+    background-attachment: fixed;
+    background-size: 100%;
+
+}
+
+
+#teamcon{
+  width: 100%;
+  height: 100%;
+
+}
+
+.te{
+
+  width: 1479px;
+  height: 90px;
+  margin-top: 110px;
+  background-image: url('teamback.png');
+}
+
+.tea{
+
+  width: 1479px;
+  height: 500px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.members{
+
+  filter: drop-shadow(1px 1px 10px black);
+  width: 300px;
+  height: 500px;
+}
+
+
+
+#mizu{
+  margin-right: 70px;
+}
+
+#aljhon{
+  margin-left: 70px;
+}
+
+.contenteam{
+  width: 300px;
+  height: 250px;
+
+
+}
+
+
+#mizupic{
+  background-image: url('mizu.png');
+  background-size: cover;
+  border-radius: 20px;
+  
+}
+
+#jhonpic{
+  background-image: url('jhon.png');
+  background-size: cover;
+  border-radius: 20px;
+}
+
+
+
+
+
+.teamname{
+  color: white;
+  font-size: 21px;
+  margin-top: 20px;
+}
+
+.teammoto{
+  color: rgb(162, 161, 161);
+  font-size: 15px;
+
+
+}
+
+.teamage{
+  color: rgb(162, 161, 161);
+  font-size: 16px;
+  margin-top: 24px;
+}
+
+.teamsection{
+  color: rgb(162, 161, 161);
+  font-size: 16px;
+
+}
