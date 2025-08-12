@@ -1,31 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @font-face {
   font-family: 'Aorus';
-  src: url(Sneakout.ttf);
+  src: url(/Sneakout.ttf);
 }
 
 @font-face {
   font-family: 'Tuf';
-  src: url(Zebulon.otf);
+  src: url(/Zebulon.otf);
 }
 @font-face {
   font-family: 'Rog';
-  src: url(ROGFonts-Regular.otf);
+  src: url(/ROGFonts-Regular.otf);
 }
 
 @font-face {
   font-family: 'Predator';
-  src: url(CloudWorld-wOYn.ttf);
+  src: url(/CloudWorld-wOYn.ttf);
 }
 
 @font-face {
   font-family: 'Msi';
-  src: url(BATMFA_.TTF);
+  src: url(/BATMFA_.TTF);
 }
 
 @font-face {
   font-family: 'Legion';
-  src: url(ProductSans-Bold.ttf);
+  src: url(/ProductSans-Bold.ttf);
 }
 
 @keyframes animation{
@@ -410,7 +410,7 @@ section.two{
   justify-content: center;
   align-items: center;
   background-size: cover;
-  background-image: url('rogbannercover.png');
+  background-image: url(/rogbannercover.png);
 
   background-attachment: fixed;
   background-size: 100%;
@@ -640,7 +640,7 @@ section.three{
 
   background-attachment: fixed;
   background-size: 100%;
-  background-image: url('rogbannercover.png');
+  background-image: url(/rogbannercover.png);
   height: 100vh;
 }
 
@@ -738,7 +738,7 @@ section.four{
 
   background-attachment: fixed;
   background-size: 100%;
-  background-image: url('rogbannercover.png');
+  background-image: url(/rogbannercover.png);
   height: 100vh;
   display: flex;
   
@@ -751,7 +751,7 @@ section.four{
 }
 
 .intelbackground{
-  background-image: url('intelback.png');
+  background-image: url(/intelback.png);
   width: 737px;
   height: 805px;
   filter: drop-shadow(1px 1px 10px black);
@@ -885,14 +885,14 @@ section.five{
 
   background-attachment: fixed;
   background-size: 100%;
-  background-image: url('rogbannercover.png');
+  background-image: url(/rogbannercover.png);
   height: 100vh;
   display: flex;
 }
 
 
 .nvidiabackground{
-  background-image: url('nvidiaback.png');
+  background-image: url(/nvidiaback.png);
   width: 737px;
   height: 805px;
   filter: drop-shadow(1px 1px 10px black);
@@ -930,7 +930,7 @@ section.six{
 
   background-attachment: fixed;
   background-size: 100%;
-  background-image: url('rogbannercover.png');
+  background-image: url(/rogbannercover.png);
   height: 100vh;
   display: flex;
   justify-content: center;
