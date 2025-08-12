@@ -115,15 +115,15 @@ let sections = document.querySelectorAll('section');
 
       
      if(marginTopNumber <= 100){
-        document.getElementById('laptophover').style.backgroundImage="url('images/rogstrixg16.png')";
+   document.getElementById('laptophover').style.backgroundImage="url('/images/rogstrixg16.png')";
 
      }
      else if(marginTopNumber <= 200 ){
-        document.getElementById('laptophover').style.backgroundImage="url('images/rogtilt.png')";
+   document.getElementById('laptophover').style.backgroundImage="url('/images/rogtilt.png')";
 
      }
      else if(marginTopNumber <= 300){
-        document.getElementById('laptophover').style.backgroundImage="url('images/rogfold.png')";
+   document.getElementById('laptophover').style.backgroundImage="url('/images/rogfold.png')";
         laptopinf.style.marginRight = "200px";
      }
      else if(marginTopNumber <= 400){
@@ -425,7 +425,7 @@ carouselSlide.addEventListener('transitionend', () => {
 
     if(carouselImages[counter].id == 'tuf'){
         console.log('TUF');    
-        document.getElementById("roginfolog").style.backgroundImage="url('images/tuflogo.png')";
+   document.getElementById("roginfolog").style.backgroundImage="url('/images/tuflogo.png')";
         document.getElementById("roglaptopname").innerHTML="ASUS TUF A16";
         document.getElementById("roglaptopname").style.fontFamily='Tuf';
         document.getElementById("roglaptopslogan").innerHTML="EXPANSIVE IMMERSION. MECHANIZED PERFORMANCE.";
@@ -448,7 +448,7 @@ carouselSlide.addEventListener('transitionend', () => {
     }
     if(carouselImages[counter].id == 'rog'){
         console.log('ROG');    
-        document.getElementById("roginfolog").style.backgroundImage="url('images/roglogo.png')";
+   document.getElementById("roginfolog").style.backgroundImage="url('/images/roglogo.png')";
         document.getElementById("roglaptopname").innerHTML="ROG STRIX G18";
         document.getElementById("roglaptopname").style.fontFamily='Rog';
         document.getElementById("roglaptopslogan").innerHTML="RAISE YOUR GAME. CARRY YOUR SQUAD.";
@@ -471,7 +471,7 @@ carouselSlide.addEventListener('transitionend', () => {
     }
     if(carouselImages[counter].id == 'msi'){
         console.log('MSI');    
-        document.getElementById("roginfolog").style.backgroundImage="url('images/msilogo.png')";
+   document.getElementById("roginfolog").style.backgroundImage="url('/images/msilogo.png')";
         document.getElementById("roglaptopname").innerHTML="MSI RAIDER GE76";
         document.getElementById("roglaptopname").style.fontFamily='Msi';
         document.getElementById("roglaptopslogan").innerHTML="OVERBOOST TECHNOLOGY UNLEASH THE POWER";
@@ -494,7 +494,7 @@ carouselSlide.addEventListener('transitionend', () => {
     }
     if(carouselImages[counter].id == 'legion'){
         console.log('LEGION');    3
-        document.getElementById("roginfolog").style.backgroundImage="url('images/legionlogo.png')";
+   document.getElementById("roginfolog").style.backgroundImage="url('/images/legionlogo.png')";
         document.getElementById("roglaptopname").innerHTML="LENOVO LEGION 9i";
         document.getElementById("roglaptopname").style.fontFamily='Legion';
         document.getElementById("roglaptopslogan").innerHTML="LIQUID COOLED. AI TUNED. YOUR FUTURE IS FORGED.";
@@ -517,7 +517,7 @@ carouselSlide.addEventListener('transitionend', () => {
     }
     if(carouselImages[counter].id == 'aorus'){
         console.log('AORUS');    
-        document.getElementById("roginfolog").style.backgroundImage="url('images/aoruslogo.png')";
+   document.getElementById("roginfolog").style.backgroundImage="url('/images/aoruslogo.png')";
         document.getElementById("roglaptopname").innerHTML="AORUS 17X";
         document.getElementById("roglaptopname").style.fontFamily='Aorus';
         document.getElementById("roglaptopslogan").innerHTML="THE FINELY CRAFTED FLAGSHIP GAMING LAPTOP";
@@ -540,7 +540,7 @@ carouselSlide.addEventListener('transitionend', () => {
     }
     if(carouselImages[counter].id == 'predator'){
         console.log('PREDATOR'); 
-        document.getElementById("roginfolog").style.backgroundImage="url('images/predatorlogo.png')";   
+   document.getElementById("roginfolog").style.backgroundImage="url('/images/predatorlogo.png')";
         document.getElementById("roglaptopname").innerHTML="PREDATOR HELIOS 18";
         document.getElementById("roglaptopname").style.fontFamily='Predator';
         document.getElementById("roglaptopslogan").innerHTML="FORGE YOUR GALACTIC DESTINY";
