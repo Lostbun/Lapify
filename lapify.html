@@ -401,17 +401,24 @@
     // SHOW ALL
 async function loadDoc() {
   try {
+    console.log('Attempting to fetch laptops.xml...');
     const response = await fetch('laptops.xml');
+    console.log('Fetch response:', response);
+    
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
+    
     const xmlString = await response.text();
+    console.log('Received XML content:', xmlString.substring(0, 100)); // Log first 100 chars
+    
     const parser = new DOMParser();
     const xmlDoc = parser.parseFromString(xmlString, "text/xml");
     myFunction(xmlDoc);
   } catch (error) {
     console.error('Error loading XML:', error);
-    // Fallback or error message to user
+    document.getElementById("itemscontainer").innerHTML = 
+      '<p style="color:red">Error loading product data. Please try again later.</p>';
   }
 }
 
