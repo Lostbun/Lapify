@@ -681,16 +681,17 @@
 
 
  //SHOW ALL //SHOW ALL //SHOW ALL //SHOW ALL //SHOW ALL //SHOW ALL //SHOW ALL //SHOW ALL //SHOW ALL //SHOW ALL //SHOW ALL //SHOW ALL //SHOW ALL
- function loadDoc() {
-   var xhttp = new XMLHttpRequest();
-   xhttp.onreadystatechange = function() {
-     if (this.readyState == 4 && this.status == 200) {
-     myFunction(this);
-     }
-   };
-   xhttp.open("GET", "laptops.xml", true);
-   xhttp.send();
- }
+async function loadDoc() {
+  try {
+    const response = await fetch('laptops.xml');
+    const xmlString = await response.text();
+    const parser = new DOMParser();
+    const xmlDoc = parser.parseFromString(xmlString, "text/xml");
+    myFunction(xmlDoc);
+  } catch (error) {
+    console.error('Error loading XML:', error);
+  }
+}
  
  
  
