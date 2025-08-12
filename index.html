@@ -402,7 +402,7 @@
 async function loadDoc() {
   try {
     console.log('Attempting to fetch laptops.xml...');
-    const response = await fetch('laptops.xml');
+    const response = await fetch('/laptops.xml');
     console.log('Fetch response:', response);
     
     if (!response.ok) {
@@ -450,7 +450,7 @@ async function loadDoc() {
                 myrog(this);
             }
         };
-        xhttp.open("GET", "laptops.xml", true);
+    xhttp.open("GET", "/laptops.xml", true);
         xhttp.send();
     }
 
