@@ -11,8 +11,7 @@
       "src": "/laptops.xml",
       "headers": {
         "Content-Type": "text/xml"
-      },
-      "continue": true
+      }
     },
     {
       "src": "/(.*)",
