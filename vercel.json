@@ -4,6 +4,10 @@
     {
       "src": "*.html",
       "use": "@vercel/static"
+    },
+    {
+      "src": "laptops.xml",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
